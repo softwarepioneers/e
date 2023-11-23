@@ -473,8 +473,14 @@
 <div class="form-group col-sm-4">
                       <select name="Type" id="ExamsType" required class="form-control custom-form-control input-lg ">
                       <option value=""  >Exams Type </option>
-                     <option value="SECONDARY">SECONDARY </option>
-                          <option value="PRIMARY">PRIMARY</option>
+                          <optgroup label="SECONDARY">
+                            <option value="ONLINE">ONLINE EXAMS</option>
+                            <option value="OFFLINE">OFFLINE EXAMS</option>
+                         </optgroup>
+                         <optgroup label="PRIMARY">
+                            <option value="ONLINE">ONLINE EXAMS</option>
+                            <option value="OFFLINE">OFFLINE EXAMS</option>
+                         </optgroup>
                       </select>
                 </div>
              
@@ -517,8 +523,8 @@
 <div class="form-group col-sm-4">
                       <select name="Syllabus" id="ExamsSyllabus" required class="form-control custom-form-control input-lg ">
                       <option value=""  >Exams Syllabus</option>
-                      <option value="SOMALILAND SYLLABUS">SOMALILAND SYLLABUS</option>
-                      <option value="OTHER SYLLABUS">OTHER SYLLABUS</option>
+                      <option value="SOMALILAND">SOMALILAND</option>
+                      <option value="OTHER">OTHER</option>
                      </select>
                 </div>
 
@@ -554,12 +560,12 @@
  <select name="Service" id="ExamsService" required class="form-control custom-form-control input-lg ">
                       <option value=""  >Exams Service</option>
                       <optgroup label="ONLINE SERVICE">
-                        <option value="ONLINE MONTHLY EXAMS">ONLINE MONTHLY EXAMS </option>
-                        <option value="ONLINE YEARLY EXAMS">ONLINE YEARLY EXAMS</option>
+                        <option value="MONTHLY EXAMS">MONTHLY EXAMS </option>
+                        <option value="YEARLY EXAMS">YEARLY EXAMS</option>
                      </optgroup>
                      <optgroup label="OFFLINE SERVICE">
-                        <option value="OFFLINE MONTHLY EXAMS">OFFLINE MONTHLY EXAMS </option>
-                        <option value="OFFLINE YEARLY EXAMS">OFFLINE YEARLY EXAMS</option>
+                        <option value="MONTHLY EXAMS">MONTHLY EXAMS </option>
+                        <option value="YEARLY EXAMS">YEARLY EXAMS</option>
                      </optgroup>
 </select>
                 </div>
